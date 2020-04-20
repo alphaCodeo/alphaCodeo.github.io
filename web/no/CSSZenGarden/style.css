@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css?family=Petit+Formal+Script');
+@import url('https://fonts.googleapis.com/css?family=Inknut+Antiqua');
+@import url('https://fonts.googleapis.com/css?family=Patua+One');
+
+@media (min-width: 600px) {
+	body {
+		background-image: url("http://3.bp.blogspot.com/-4F-1t2d0_K0/UmpPFEMiEAI/AAAAAAAAExw/ZpksJ4xQk2k/s1600/Tileable+Cream+marble+floor+tile+texture.png");
+	}
+
+	.summary, .preamble, .explanation, .participation, .benefits, .requirements, .design-selection, .design-archives, .zen-resources, header, footer {
+		background: beige;
+		display: block;
+		display: inline-block;
+		box-shadow: 10px 10px 5px #888888;
+		border-radius: 10px;
+		padding: 10px;
+		border: 5px double rgb(243, 220, 129);
+		margin: 10px;
+		font: bold 13px "Petit Formal Script", cursive;
+	}
+
+	header {
+		font: italic 110% "Patua One", cursive;
+	}
+
+	h3 {
+		font: italic 19px "Inknut Antiqua", serif;
+	}
+
+	.sidebar .design-selection {
+		background-image: url("http://3.bp.blogspot.com/-4F-1t2d0_K0/UmpPFEMiEAI/AAAAAAAAExw/ZpksJ4xQk2k/s1600/Tileable+Cream+marble+floor+tile+texture.png");
+		border: 5px double blue;
+		position: fixed;
+		top: 15%;
+		right: 10px;
+		opacity: 0.7;
+	}
+
+	.sidebar .design-archives {
+		background-image: url("http://3.bp.blogspot.com/-4F-1t2d0_K0/UmpPFEMiEAI/AAAAAAAAExw/ZpksJ4xQk2k/s1600/Tileable+Cream+marble+floor+tile+texture.png");
+		border: 5px double blue;
+		position: fixed;
+		top: 50%;
+		right: 10px;
+		opacity: 0.7;
+	}
+
+	.sidebar .zen-resources {
+		background-image: url("http://3.bp.blogspot.com/-4F-1t2d0_K0/UmpPFEMiEAI/AAAAAAAAExw/ZpksJ4xQk2k/s1600/Tileable+Cream+marble+floor+tile+texture.png");
+		border: 5px double blue;
+		position: fixed;
+		bottom: 10px;
+		right: 10px;
+		opacity: 0.7;
+	}
+}

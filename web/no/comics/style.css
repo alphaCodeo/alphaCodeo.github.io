@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Mono');
+
+body {
+    background: black;
+}
+
+* {
+    font-family: "Ubuntu Mono";
+    text-align: center;
+    margin: auto;
+    color: #3333FF;
+}
+
+#comics {
+    list-style-type: none;
+}
+
+#comics ul li a {
+}

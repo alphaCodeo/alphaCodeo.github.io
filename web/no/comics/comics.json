@@ -1,0 +1,16 @@
+[
+    {
+        "name":  "Java: Globals VS Pointers",
+        "file":  "java-global-pointer",
+        "day":   24,
+        "month": 8,
+        "year":  2017
+    },
+    {
+        "name": "Chinese",
+        "file": "tong-ren",
+        "day":   25,
+        "month": 8,
+        "year":  2017
+    }
+]

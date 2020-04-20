@@ -1,0 +1,25 @@
+body {
+    text-align: left;
+}
+
+.maintext {
+    font-size: 23.5px;
+}
+
+#logout {
+    text-align: right;
+}
+
+.projects {
+    font-size: 20px;
+    border: 1px solid #00EE00;
+    padding: 15px;
+}
+
+.owen {
+    text-align: center;
+    font-size: 14.5px;
+    border: 1.5px solid black;
+    background: #999999;
+    color: black;
+}
