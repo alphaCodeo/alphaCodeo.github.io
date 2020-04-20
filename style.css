@@ -71,6 +71,11 @@ body {
 	border-radius: 5px;
 	margin: 10px;
 	color: white;
+	position: relative;
+}
+
+.bibliography {
+	position: relative;
 }
 
 .period-title {
@@ -83,24 +88,32 @@ body {
 	text-shadow: 1px 1px 1px black;
 }
 
-.period-title, .composer-title {
+.period-title, .composer-title, .bibliography-title {
 	cursor: pointer;
 	text-decoration: none;
+}
+
+.bibliography-title {
+	font-size: 30px;
 }
 
 .composer-title:hover {
 	font-size: 45px;
 }
 
-.period-title:hover, .composer-title:hover {
+.period-title:hover, .composer-title:hover, .bibliography-title:hover {
 	text-decoration: underline;
 }
 
-.period-title:hover + .period-text, .period-text:hover, .composer-title:hover + .composer-text, .composer-text:hover  {
+.period-title:hover + .period-text, .period-text:hover, .composer-title:hover + .composer-text, .composer-text:hover, .bibliography-title:hover + .bibliography-text, .bibliography-text:hover {
 	visibility: visible;
 }
 
-.composer-text, .period-text {
+.bibliography-title:hover {
+	font-size: 40px;
+}
+
+.composer-text, .period-text, .bibliography-text {
 	font-size: 20px;
 	visibility: hidden;
 	z-index: 1;
@@ -112,6 +125,14 @@ body {
 	background-image: url("res/marble.png");
 	border-radius: 15px;
 	border: 1px groove black;
+}
+
+.bibliography-text {
+	bottom: 45px;
+}
+
+#modern .period-text, #modern .composer .composer-text {
+	right: 0px;
 }
 
 img {
